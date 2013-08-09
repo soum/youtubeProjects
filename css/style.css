@@ -1,0 +1,24 @@
+.videoPopup {
+    display:none;
+    padding:20px;
+    background:white;
+    border:1px solid black;
+    position:absolute;
+}
+.vidTrigger {
+    width:100px;
+    height:100px;
+    background:gray;
+    float:left;
+    margin-right:10px;
+    cursor:pointer;
+}
+.vidTrigger:hover{
+	background:#333;
+}
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor:pointer;
+}
